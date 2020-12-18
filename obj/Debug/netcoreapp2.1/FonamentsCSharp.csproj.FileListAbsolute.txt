@@ -1,0 +1,11 @@
+E:\PERSONAL\APP FACTORY 2020\Unity 3D i C#\FonamentsCSharp\FonamentsCSharp\bin\Debug\netcoreapp2.1\FonamentsCSharp.deps.json
+E:\PERSONAL\APP FACTORY 2020\Unity 3D i C#\FonamentsCSharp\FonamentsCSharp\bin\Debug\netcoreapp2.1\FonamentsCSharp.runtimeconfig.json
+E:\PERSONAL\APP FACTORY 2020\Unity 3D i C#\FonamentsCSharp\FonamentsCSharp\bin\Debug\netcoreapp2.1\FonamentsCSharp.runtimeconfig.dev.json
+E:\PERSONAL\APP FACTORY 2020\Unity 3D i C#\FonamentsCSharp\FonamentsCSharp\bin\Debug\netcoreapp2.1\FonamentsCSharp.dll
+E:\PERSONAL\APP FACTORY 2020\Unity 3D i C#\FonamentsCSharp\FonamentsCSharp\bin\Debug\netcoreapp2.1\FonamentsCSharp.pdb
+E:\PERSONAL\APP FACTORY 2020\Unity 3D i C#\FonamentsCSharp\FonamentsCSharp\obj\Debug\netcoreapp2.1\FonamentsCSharp.csprojAssemblyReference.cache
+E:\PERSONAL\APP FACTORY 2020\Unity 3D i C#\FonamentsCSharp\FonamentsCSharp\obj\Debug\netcoreapp2.1\FonamentsCSharp.csproj.CoreCompileInputs.cache
+E:\PERSONAL\APP FACTORY 2020\Unity 3D i C#\FonamentsCSharp\FonamentsCSharp\obj\Debug\netcoreapp2.1\FonamentsCSharp.AssemblyInfoInputs.cache
+E:\PERSONAL\APP FACTORY 2020\Unity 3D i C#\FonamentsCSharp\FonamentsCSharp\obj\Debug\netcoreapp2.1\FonamentsCSharp.AssemblyInfo.cs
+E:\PERSONAL\APP FACTORY 2020\Unity 3D i C#\FonamentsCSharp\FonamentsCSharp\obj\Debug\netcoreapp2.1\FonamentsCSharp.dll
+E:\PERSONAL\APP FACTORY 2020\Unity 3D i C#\FonamentsCSharp\FonamentsCSharp\obj\Debug\netcoreapp2.1\FonamentsCSharp.pdb

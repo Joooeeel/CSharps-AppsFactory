@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.1</TargetFramework>
-    <StartupObject>FonamentsCSharp.factorial</StartupObject>
+    <StartupObject>FonamentsCSharp.EntrarNúmeros</StartupObject>
   </PropertyGroup>
 
 </Project>

@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.1</TargetFramework>
-    <StartupObject>FonamentsCSharp.Herencia.MainClass</StartupObject>
+    <StartupObject>FonamentsCSharp.HerenciaAnimales.MainClass</StartupObject>
   </PropertyGroup>
 
 </Project>

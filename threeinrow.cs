@@ -35,7 +35,7 @@ namespace FonamentsCSharp
 
                 } while (isPlaying);
 
-                Console.WriteLine("JUEGO TERMINADO");
+                if (!player) Console.WriteLine("GANA EL JUGADOR X"); else Console.WriteLine("GANA EL JUGADOR O");
 
                 Console.WriteLine("Quieres volver a jugar? (si/no)");
                 string play = Console.ReadLine();

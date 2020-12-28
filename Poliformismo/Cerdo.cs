@@ -8,7 +8,7 @@ namespace FonamentsCSharp.Poliformismo
     {
         public Cerdo(string sonido) : base(sonido) { }
 
-        public override void comunicarse(){
+        public override void Comunicarse(){
             Console.WriteLine("Cuando el cerdo esta gordo hace " + sonido);
         }
     }

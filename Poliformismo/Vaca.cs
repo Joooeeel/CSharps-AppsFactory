@@ -8,7 +8,7 @@ namespace FonamentsCSharp.Poliformismo
     {
         public Vaca(string sonido) : base(sonido) { }
 
-        public override void comunicarse(){
+        public override void Comunicarse(){
             Console.WriteLine("Cuando la vaca tiene leche hace " + sonido);
         }
     }

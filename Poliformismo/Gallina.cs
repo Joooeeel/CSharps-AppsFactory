@@ -8,7 +8,7 @@ namespace FonamentsCSharp.Poliformismo
     {
         public Gallina(string sonido) : base(sonido) { }
 
-        public override void comunicarse(){
+        public override void Comunicarse(){
             Console.WriteLine("Cuando la gallina pone huevos hace " + sonido);
         }
     }

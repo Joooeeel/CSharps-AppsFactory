@@ -4,7 +4,7 @@ using System.Text;
 
 namespace FonamentsCSharp.Poliformismo
 {
-    abstract class Animal
+    abstract class Animal:IAnimal
     {
         protected string sonido;
 
@@ -12,7 +12,7 @@ namespace FonamentsCSharp.Poliformismo
             this.sonido = sonido;
         }
 
-        public abstract void comunicarse();
+        public abstract void Comunicarse();
 
         
     }

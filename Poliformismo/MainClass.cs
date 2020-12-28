@@ -8,13 +8,20 @@ namespace FonamentsCSharp.Poliformismo
     {
         static void Main(string[] args)
         {
-            Vaca v = new Vaca("muuumuuu");
+            IAnimal ivaca = new Vaca("muuuumuuuu");
+            IAnimal igallina = new Gallina("kikikiki");
+            IAnimal icerdo = new Cerdo("oinkoink");
+            /*Vaca v = new Vaca("muuumuuu");
             Gallina g = new Gallina("kikikiki");
             Cerdo c = new Cerdo("oinkoink");
 
             v.comunicarse();
             g.comunicarse();
-            c.comunicarse();
+            c.comunicarse();*/
+
+            ivaca.Comunicarse();
+            igallina.Comunicarse();
+            icerdo.Comunicarse();
         }
     }
 }

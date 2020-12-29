@@ -49,47 +49,47 @@ namespace FonamentsCSharp.OcaGame
 
             while (isActive){
                 newMove = r.Next(1, 7);
+                int newSquare = newMove + players[player].casilla;
 
-                if(players[player].isActive && players[player].turnosRestantes == 0){
-                    players[player].casilla += newMove;
+                if (players[player].isActive && players[player].turnosRestantes == 0){
+                    players[player].casilla = newSquare;
                     Console.WriteLine(players[player].nombre + " se ha movido a la casilla: " + players[player].casilla);
 
                     //CHECK IF POSITION CONTAINS OCA
-                    if (ocas.ContainsKey(players[player].casilla))
+                    if (ocas.ContainsKey(newSquare))
                     {
                         Console.WriteLine("De oca a oca y tiro porque me toca");
-                        players[player].casilla = ocas[players[player].casilla];
+                        players[player].casilla = ocas[newSquare];
                         Console.WriteLine(players[player].nombre + " se ha movido a la casilla: " + players[player].casilla);
                     }
 
                     //CHECK IF POSITION CONTAINS PUENTE
-                    if (puente.ContainsKey(players[player].casilla))
+                    if (puente.ContainsKey(newSquare))
                     {
                         Console.WriteLine("De puente a puente y tiro porque me lleva la corriente");
-                        players[player].casilla = puente[players[player].casilla];
+                        players[player].casilla = puente[newSquare];
                         Console.WriteLine(players[player].nombre + " se ha movido a la casilla: " + players[player].casilla);
                     }
 
                     //CHECK IF POSITION CONTAINS DADO
-                    if (dados.ContainsKey(players[player].casilla))
+                    if (dados.ContainsKey(newSquare))
                     {
                         Console.WriteLine("De dado a dado y tiro porque me ha tocado");
-                        players[player].casilla = dados[players[player].casilla];
+                        players[player].casilla = dados[newSquare];
                         Console.WriteLine(players[player].nombre + " se ha movido a la casilla: " + players[player].casilla);
                     }
 
                     //CHECK IF POSITION TAKES SOME PENALITATION
-                    if (penalizaciones.ContainsKey(players[player].casilla))
+                    if (penalizaciones.ContainsKey(newSquare))
                     {
-                        players[player].turnosRestantes = penalizaciones[players[player].casilla];
+                        players[player].turnosRestantes = penalizaciones[newSquare];
 
                         if (players[player].turnosRestantes == 10){
                             players[player].isActive = false;
                             Console.WriteLine(players[player].nombre + " ha muerto");
                         }
+                        else { Console.WriteLine(players[player].nombre + " tiene una penalización de: " + players[player].turnosRestantes + " turnos."); }
 
-
-                        Console.WriteLine(players[player].nombre + " tiene una penalización de: " + players[player].turnosRestantes + " turnos.");
                     }
                 }
                 else{

@@ -42,6 +42,7 @@ namespace FonamentsCSharp.List
                             Console.WriteLine("");
                             Console.WriteLine("Nombre: " + x.name);
                             Console.WriteLine("Edad: " + x.age);
+                            Console.WriteLine("E-mail: " + x.mail);
                             Console.WriteLine("");
                         }
 
@@ -62,10 +63,13 @@ namespace FonamentsCSharp.List
             string nombre = getName();
             
             int edad = getAge();
+
+            string mail = getMail();
            
             Student newStudent = new Student();
             newStudent.name = nombre;
             newStudent.age = edad;
+            newStudent.mail = mail;
 
             return newStudent;
         }
@@ -94,6 +98,8 @@ namespace FonamentsCSharp.List
             string name2 = getName();
             
             int age = getAge();
+
+            string mail = getMail();
             
 
             for (int i = 0; i < student.Count; i++)
@@ -102,6 +108,7 @@ namespace FonamentsCSharp.List
                 {
                     student[i].name = name2;
                     student[i].age = age;
+                    student[i].mail = mail;
                 }
             }
 
@@ -116,6 +123,14 @@ namespace FonamentsCSharp.List
             
             return name;
         }
+        static string getMail()
+        {
+            Console.WriteLine("Entra el mail: ");
+            string mail = Console.ReadLine();
+
+            return mail;
+        }
+
 
         static int getAge()
         {

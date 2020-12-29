@@ -8,6 +8,7 @@ namespace FonamentsCSharp.List
     {
         string _name;
         int _age;
+        string _mail;
 
         public string name{
             get{ return _name;
@@ -20,6 +21,18 @@ namespace FonamentsCSharp.List
             get{ return _age;
             }set{
                 _age = value;
+            }
+        }
+
+        public string mail
+        {
+            get
+            {
+                return _mail;
+            }
+            set
+            {
+                _mail = value;
             }
         }
     }
